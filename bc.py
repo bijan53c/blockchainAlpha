@@ -26,6 +26,7 @@ class Blockchain(object):
 			'proof': proof,
 			'previous_hash' : previous_hash or self.hash(self.chain[-1]),
 			'note': None
+			
 		}
 		self.current_transacs = []
 		
